@@ -53,7 +53,7 @@ const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
 const BotName = 'jhon bot'; 
-const instagram = 'http://www.instagram.com/'; 
+
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
@@ -304,7 +304,7 @@ async function starts() {
 			const mod = [ownerNumber,"553599138474@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["553599138474@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["553599138474@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["553599138474@s.whatsapp.net","553599138474@s.whatsapp.net"] 
+			const premium = ["553599138474@s.whatsapp.net","5511949542619@s.whatsapp.net"] 
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -659,7 +659,7 @@ if (text.includes("placa"))
 	
 	if (messagesC.includes("fdp")){
 			client.updatePresence(from, Presence.composing)
-			reply("teu pai")
+			reply("seu pai Caraí!")
 	}
 	
 		if (messagesC.includes("corno")){
@@ -684,7 +684,7 @@ if (text.includes("placa"))
 	
 		if (messagesC.includes("bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("oi")
+			reply("oopaa👋")
 	}
 	
 			if (messagesC.includes("bah")){
@@ -1697,7 +1697,7 @@ if (text.includes("placa"))
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.title}.mp4`, quoted: mek, caption: 'Aqui mano'})
 					await limitAdd(sender) 	
-					break  
+					break 
 				case 'ttp':
 					if (args.length < 1) return reply('Cadê o texto, hum?')
 					ranp = getRandom('.png')
